@@ -78,7 +78,7 @@ Figma do projeto: keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCv
 - $font-principal-bold: 700;*
 - $font-small: 12px;
 - $font-normal-size: 16px;
-- $fontt-big: 64px;
+- $font-big: 64px;
 - $font-huge: 144px;
 ***
 ![LogoCompasso-negativo_0](https://user-images.githubusercontent.com/100351576/195417178-b380b5d4-7f51-4f80-b2ce-e9e2af393082.png)
