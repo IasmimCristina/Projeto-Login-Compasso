@@ -74,6 +74,9 @@ Figma do projeto: keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCv
 - $color-gradient-red:  linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
 
 
+![LogoCompasso-negativo_0](https://user-images.githubusercontent.com/100351576/195417178-b380b5d4-7f51-4f80-b2ce-e9e2af393082.png)
+
+
  
 
 
