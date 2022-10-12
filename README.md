@@ -5,19 +5,15 @@
 - 4 páginas. 📃
 - Tecnologias usadas: Html, Scss/Css e JavaScript.
 ***
-História
+### 🎬 História 🎬
 
 Eu, como usuário, quero poder logar no website de colaboradores da Compass para que eu consiga acessar com segurança e usufruir das funcionalidades disponíveis.
 
- 
-
-Cenário Atual:
+### Cenário Atual: 😟
 
 Atualmente não temos um sistema e login num ambiente digital que promova uma maior integração e centralização de funcionalidade para colaboradores na Compass.⠀⠀⠀
-
  
-
-Cenário Desejado:
+### Cenário Desejado: 😊
 
 Desejamos um login que possa permitir uma boa usabilidade ao usuário.
 ***
