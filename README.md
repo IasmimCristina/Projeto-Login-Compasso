@@ -1,14 +1,14 @@
-# Projeto de Login para Compasso Uol - **SPRINT IV**
+# 🎮 Projeto de Login para Compasso Uol - **SPRINT IV** 🎮
 ![Imagem de login do projeto.](https://user-images.githubusercontent.com/100351576/195411306-a2e7c079-d01f-4329-8ba7-7b2940610b41.jpg)
-## Descrição:
+## 👩‍💻 Descrição:
 - Telas de entrada ao sistema Compasso, projeto enviado pela Compass Uol que necessita de HTML/CSS/JS.
-- 4 páginas.
+- 4 páginas. 📃
 - Tecnologias usadas: Html, Scss/Css e JavaScript.
 
 Figma do projeto: keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCvmL0ZUnb7SJ/keepalive?node-id=0%3A1
 
 ***
-# O que deve ser feito: 
+# 🗃️ O que deve ser feito: 
 
 🛠 Workflow:
 
@@ -59,4 +59,23 @@ Figma do projeto: keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCv
 
  
  ***
-# Variáveis do projeto: 
+# ✨🌈Variáveis CSS do projeto🌈✨
+- $color-white: #FFFFFF;
+- $color-primary-red: #C12D18;
+- $color-primary-yeallow: #E9B425;
+- $color-primary-orange: #E29933;
+- $color-black: #000000;
+- $color-secondary: #222222;
+- $color-background-home: #E0E0E0;
+- $color-gradient-orange: linear-gradient(180deg, #E29933 0%, #C13216 100%);
+- $color-gradient-black: linear-gradient(180deg, #222222 0%, #000000 100%);
+- $color-gradient-yellow: linear-gradient(180deg, #E9B425 0%, #E29933 100%);
+- $color-gradient-gray: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+- $color-gradient-red:  linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+
+
+ 
+
+
+
+![Logo-Compasso-Branco-hor 1](https://user-images.githubusercontent.com/100351576/195412602-1bb2b3ba-7361-4441-9392-770a326a3fac.jpg)
