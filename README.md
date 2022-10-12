@@ -1,5 +1,8 @@
 # Projeto de Login para Compasso Uol - **SPRINT IV**
-Descrição: telas de entrada ao sistema Compasso, projeto enviado pela Compass Uol que necessita de HTML/CSS/JS.
+## Descrição:
+- Telas de entrada ao sistema Compasso, projeto enviado pela Compass Uol que necessita de HTML/CSS/JS.
+- 3 páginas.
+- Tecnologias usadas: Html, Scss/Css e JavaScript.
 
 Figma do projeto: keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCvmL0ZUnb7SJ/keepalive?node-id=0%3A1
 
