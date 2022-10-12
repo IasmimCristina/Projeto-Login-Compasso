@@ -61,10 +61,10 @@ Figma do projeto: keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCv
  ***
 # ✨🌈Variáveis CSS do projeto🌈✨
 - $color-white: #FFFFFF;
+- $color-black: #000000;
 - $color-primary-red: #C12D18;
 - $color-primary-yeallow: #E9B425;
 - $color-primary-orange: #E29933;
-- $color-black: #000000;
 - $color-secondary: #222222;
 - $color-background-home: #E0E0E0;
 - $color-gradient-orange: linear-gradient(180deg, #E29933 0%, #C13216 100%);
