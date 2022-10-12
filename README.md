@@ -54,3 +54,5 @@ Figma do projeto: keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCv
     Apresentação do projeto no dia determinado. A não apresentação acarretará nota 0.
 
  
+ ***
+# Variáveis do projeto: 
