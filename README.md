@@ -87,7 +87,7 @@ Figma do projeto: keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCv
 - $color-gradient-gray: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
 - $color-gradient-red:  linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
 
-## 🔤🌈 Fonte do projeto 🔤🌈 
+## 🔤🌈 Fonte do projeto 🌈🔤 
 - $font-principal: 'Poppins', sans-serif;
 - $font-small: 12px;
 - $font-normal-size: 16px;
