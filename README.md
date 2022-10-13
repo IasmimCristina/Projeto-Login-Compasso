@@ -79,6 +79,8 @@ Figma do projeto: keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCv
 - $color-primary-orange: #E29933;
 - $color-secondary: #222222;
 - $color-background-home: #E0E0E0;
+
+## 🌈Gradientes do projeto 🌈
 - $color-gradient-orange: linear-gradient(180deg, #E29933 0%, #C13216 100%);
 - $color-gradient-black: linear-gradient(180deg, #222222 0%, #000000 100%);
 - $color-gradient-yellow: linear-gradient(180deg, #E9B425 0%, #E29933 100%);
@@ -87,11 +89,13 @@ Figma do projeto: keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCv
 
 ## 🔤 Fonte do projeto 🔤 
 - $font-principal: 'Poppins', sans-serif;
-- $font-principal-bold: 700;*
 - $font-small: 12px;
 - $font-normal-size: 16px;
 - $font-big: 64px;
 - $font-huge: 144px;
+### 💡Pesos das fontes no projeto💡 
+- $font-principal-bold: 700;*
+- $font-principal-not-bold: 400;
 ***
 ![LogoCompasso-negativo_0](https://user-images.githubusercontent.com/100351576/195417178-b380b5d4-7f51-4f80-b2ce-e9e2af393082.png)
 ***

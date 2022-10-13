@@ -1,0 +1,11 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "noselect";
+
+//Estilização geral.
+body {
+  font-family: $font-principal;
+  font-size: $font-normal-size;
+  font-weight: $font-principal-not-bold;
+}
