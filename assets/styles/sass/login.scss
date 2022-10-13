@@ -1,0 +1,115 @@
+@import "variables";
+@import "mixins";
+@import "noselect";
+
+.main-container {
+  display: flex;
+
+  .main-title-text-container {
+    margin-bottom: 18vh;
+
+    .main-title {
+      font-size: $font-big;
+      line-height: 4.7rem;
+
+      &-text {
+        line-height: 1.26rem;
+        width: 15vw;
+      }
+
+    }
+
+  }
+
+
+  .form-login-container {
+    width: 50vw;
+    height: 100vh;
+    background: $color-gradient-gray;
+
+    &-content {
+      margin: 15vh 15vw;
+
+      .form-login {
+
+        &-title {
+          font-size: $font-normal-big;
+          margin-bottom: 1.5vh;
+        }
+
+        .login-areas {
+
+          justify-content: space-around;
+          height: 18vh;
+          display: flex;
+          flex-direction: column;
+
+          input {
+            padding-left: 1vw;
+            padding-right: 3.5vw;
+            height: 3.5rem;
+            border-radius: 2rem;
+            outline-color: $color-primary-red;
+            border: 1px solid $color-white;
+            background: transparent;
+            color: $color-text-and-background;
+
+            &::placeholder {
+              color: $color-text-and-background;
+            }
+            &:focus {
+              background-color: $color-black;
+            }
+          }
+
+          #form-login-email {
+            position: relative;
+          }
+          .icon-user {
+            
+            position: absolute;
+            left: 35.5vw;
+            bottom: 43.5vh;
+          }         
+          .icon-password {
+            
+            position: absolute;
+            left: 35.8vw;
+            bottom: 35vh;
+          }
+
+
+        }
+
+        button {
+          margin-top: 10vh;
+          background: $color-gradient-red ;
+          color: $color-white;
+          font-weight: $font-principal-bold;
+          line-height: 1.4263rem;
+          width: 20vw;
+          height: 3.5rem;
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+          border: none;
+          border-radius: 2rem;
+
+          &:hover {
+            color: $color-primary-red;
+            background: $color-white;
+            transition: .5s;
+          }
+
+
+        }
+      }
+    }
+
+  }
+
+  .image-login-container {
+    text-align: center;
+    width: 50vw;
+    height: 100vh;
+    background-image: url(../../images/computerbackground.jpg); //Mudará para a versão mobile. Farei?
+  }
+}

@@ -5,7 +5,7 @@ $color-primary-red: #C12D18;
 $color-primary-yeallow: #E9B425;
 $color-primary-orange: #E29933;
 $color-secondary: #222222;
-$color-background-home: #E0E0E0;
+$color-text-and-background: #E0E0E0;
 
 //Gradientes do projeto.
 $color-gradient-orange: linear-gradient(180deg, #E29933 0%, #C13216 100%);
@@ -16,10 +16,12 @@ $color-gradient-red:  linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
 
 //Fonte do projeto e sua configuração.
 $font-principal: 'Poppins', sans-serif;
-$font-small: 12px;
-$font-normal-size: 16px;
-$font-big: 64px;
-$font-huge: 144px;
+$font-small: 0.75rem;
+$font-normal-size: 1rem;
+$font-normal-big: 1.875rem;
+$font-big: 3.75rem;
+$font-bigger: 4rem;
+$font-huge: 9rem;
 
 //Peso das fontes:
 $font-principal-bold: 700;
