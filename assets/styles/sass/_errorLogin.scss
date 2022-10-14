@@ -1,15 +1,22 @@
 @import "variables";
 @import "mixins";
 
+//Estilização do erro nos campos do Login.
 .error-message {
   display: flex;
-  margin-top: 2vh;
-height: 5vh;
+  // margin-top: 1.5vh;
+  margin-left: 2.5vw;
+  height: 5vh;
+  width: 15vw;
   text-align: center;
   line-height: 1.25rem;
   font-weight: $font-principal-bold;
-  color: $color-primary-yeallow;
-  background-color: aqua;
-//O texto será adicionado dinamicamente!
+  color: $color-primary-yeallow;   
+
+  //O texto será adicionado dinamicamente!
   &.error-active {}
+}
+
+.error-active  {
+border: 1px solid $color-primary-yeallow !important;
 }
