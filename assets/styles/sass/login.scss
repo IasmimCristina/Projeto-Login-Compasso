@@ -1,6 +1,7 @@
 @import "variables";
 @import "mixins";
 @import "noselect";
+@import "errorLogin";
 
 .main-container {
   display: flex;
@@ -17,6 +18,8 @@
         width: 15vw;
       }
 
+      
+
     }
 
   }
@@ -31,10 +34,14 @@
       margin: 15vh 15vw;
 
       .form-login {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
 
         &-title {
           font-size: $font-normal-big;
-          margin-bottom: 1.5vh;
+          margin-bottom: 1.8vh;
         }
 
         .login-areas {
@@ -57,6 +64,7 @@
             &::placeholder {
               color: $color-text-and-background;
             }
+
             &:focus {
               background-color: $color-black;
             }
@@ -65,24 +73,37 @@
           #form-login-email {
             position: relative;
           }
-          .icon-user {
-            
-            position: absolute;
-            left: 35.5vw;
-            bottom: 43.5vh;
-          }         
+
+          .icon-user,
           .icon-password {
-            
-            position: absolute;
-            left: 35.8vw;
-            bottom: 35vh;
+            transition: .5s;
+            z-index: 2;
+
+            &.onfocus {
+
+              left: 17.8vw;
+            }
+          }
+
+          .icon-user {
+            left: 20.8vw;
+            bottom: 5.1vh;
+          }
+
+          .icon-password {
+            left: 21vw;
+            bottom: 4vh;
+
+
           }
 
 
         }
 
+
+
         button {
-          margin-top: 10vh;
+          margin-top: 5vh;
           background: $color-gradient-red ;
           color: $color-white;
           font-weight: $font-principal-bold;
@@ -96,6 +117,7 @@
           &:hover {
             color: $color-primary-red;
             background: $color-white;
+            height: 3.9rem;
             transition: .5s;
           }
 

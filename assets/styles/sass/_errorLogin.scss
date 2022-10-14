@@ -1,0 +1,15 @@
+@import "variables";
+@import "mixins";
+
+.error-message {
+  display: flex;
+  margin-top: 2vh;
+height: 5vh;
+  text-align: center;
+  line-height: 1.25rem;
+  font-weight: $font-principal-bold;
+  color: $color-primary-yeallow;
+  background-color: aqua;
+//O texto será adicionado dinamicamente!
+  &.error-active {}
+}

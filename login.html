@@ -35,16 +35,21 @@
           </div>
           <form class="form-login">
 
-            <h2 class="form-login-title">Login</h2>
+            <h2 class="form-login-title noselect">Login</h2>
 
             <div class="login-areas">
-              <input id="form-login-email" type="text" name="email" placeholder="Usuário"> 
-              <i class="gg-profile icon-user"></i>                          
-              <input id="form-login-password" type="password" placeholder="Senha">
-              <i class="gg-lock icon-password"></i>
-            </div>
 
-            <button>Continuar</button>
+              <input id="form-login-email" type="text" name="email" placeholder="Usuário"> 
+              <i class="gg-profile icon-user"></i>   
+              
+              
+              <input class="input-password" id="form-login-password" type="password" placeholder="Senha">
+              <i class="gg-lock icon-password"></i>
+              
+            </div>
+            <span class="noselect error-message error-active" >Ops, usuário ou senha inválidos. Tente novamente!</span>
+
+            <div class="button-container"><button>Continuar</button></div>
           </form>
         </div>
 
@@ -56,6 +61,7 @@
   </main>
 
 <!-- Aqruivos JavaScript -->
+<script src="assets/javascript/loginAnimation.js"></script>
 
   <script>
    
