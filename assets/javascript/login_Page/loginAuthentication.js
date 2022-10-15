@@ -8,7 +8,9 @@ const authenticationLoginGeneral = e => {
   isValid = errorInputDecorationEmail();
   isValid = errorInputDecorationPassword();
   if (isValid) {
-    getUserTyped(loginEmail, loginPassword);
+    let userTyped = getUserTyped(loginEmail.value, loginPass.value);
+    validateUser(userTyped);
+
   }
 
 };

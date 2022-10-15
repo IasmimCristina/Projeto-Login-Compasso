@@ -13,6 +13,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <!-- Ícones do projeto -->
+  <script src="https://kit.fontawesome.com/62c6af1c90.js" crossorigin="anonymous"></script>
   <link href='https://css.gg/lock.css' rel='stylesheet'>
   <link href='https://css.gg/profile.css' rel='stylesheet'>
   <!-- Estilos do projeto -->
@@ -27,7 +28,7 @@
   <main>
     <div class="main-container">
       <section class="form-login-container">
-
+        
         <div class="form-login-container-content">
           <div class="main-title-text-container">
             <h1 class="main-title noselect">Olá,</h1>
@@ -37,19 +38,20 @@
 
             <h2 class="form-login-title noselect">Login</h2>
 
-            <div class="login-areas">
-
-              <input id="form-login-email" class="" type="text" name="email" placeholder="Usuário">
-              <i class="gg-profile icon-user"></i>
-
-
-              <input class="input-password" id="form-login-password"   type="password" placeholder="Senha">
-              <i class="gg-lock icon-password"></i>
-
+            <div class="login-areas-container">
+              
+              <div class="login-areas">
+                <input id="form-login-email" type="text" name="email" placeholder="Usuário">
+                <i class="gg-profile icon-user"></i>
+              
+                <input class="input-password" id="form-login-password" type="password" placeholder="Senha">
+                <i class="gg-lock icon-password"></i>
+              
+              </div>
             </div>
             <span class="noselect error-message"></span>
 
-            <div class="button-container"><button class="login-button" >Continuar</button></div>
+            <div class="button-container"><button class="login-button">Continuar</button></div>
           </form>
         </div>
 
@@ -61,12 +63,12 @@
   </main>
 
   <!-- Arquivos JavaScript -->
-  <script src="assets/javascript/loginAnimation.js"></script>
-  <script src="assets/javascript/loginErrorMessage.js"></script>
-  <script src="assets/javascript/loginErrorInput.js"></script>
-  <script src="assets/javascript/loginValidateUser.js"></script>
-  <script src="assets/javascript/loginOpenHome.js"></script>
-  <script src="assets/javascript/loginAuthentication.js"></script>
+  <script src="assets/javascript/login_Page/loginAnimation.js"></script>
+  <script src="assets/javascript/login_Page/loginErrorMessage.js"></script>
+  <script src="assets/javascript/login_Page/loginErrorInput.js"></script>
+  <script src="assets/javascript/login_Page/loginValidateUser.js"></script>
+  <script src="assets/javascript/login_Page/loginOpenHome.js"></script>
+  <script src="assets/javascript/login_Page/loginAuthentication.js"></script>
 
   <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

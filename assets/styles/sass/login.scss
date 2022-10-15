@@ -19,7 +19,7 @@
         width: 15vw;
       }
 
-      
+
 
     }
 
@@ -27,79 +27,108 @@
 
 
   .form-login-container {
+    
+    // display: flex;
+    // justify-content: space-evenly;
+   
+
+    
+
+    // }
     width: 50vw;
     height: 100vh;
     background: $color-gradient-gray;
 
     &-content {
       margin: 15vh 15vw;
+     
 
       .form-login {
         height: 40vh;
         display: flex;
         flex-direction: column;
-        // justify-content: space-between;
+
 
         &-title {
           font-size: $font-normal-big;
           margin-bottom: 1.8vh;
+
         }
 
-        .login-areas {
+        .login-areas-container {
+          // background-color: black;
 
-          justify-content: space-around;
-          height: 18vh;
-          display: flex;
-          flex-direction: column;
+          // width: 45vw;
+          // display: flex;
+         
 
-          input {
-            padding-left: 1vw;
-            padding-right: 3.5vw;
-            height: 3.5rem;
-            border-radius: 2rem;
-            outline-color: $color-primary-red;
-            border: 1px solid $color-white;
-            background: transparent;
-            color: $color-text-and-background;
+          .login-areas {
+            // background-color: aqua;
+            justify-content: space-around;
+            height: 18vh;
+            width: 30vw;
+            display: flex;
+            flex-direction: column;
 
-            &::placeholder {
+
+
+
+
+            input {
+
+              padding-left: 1vw;
+              padding-right: 3.5vw;
+              height: 3.5rem;
+              width: 20vw;
+              border-radius: 2rem;
+              outline-color: $color-primary-red;
+              border: 1px solid $color-white;
+              background: transparent;
               color: $color-text-and-background;
+
+              &::placeholder {
+                color: $color-text-and-background;
+              }
+
+              &:focus {
+                background-color: $color-black;
+              }
+
             }
 
-            &:focus {
-              background-color: $color-black;
+
+            #form-login-email {
+              position: relative;
+
             }
-          }
 
-          #form-login-email {
-            position: relative;
-          }
+            .icon-user,
+            .icon-password {
+              transition: .5s ease-out;
+              z-index: 2;
 
-          .icon-user,
-          .icon-password {
-            transition: .5s ease-out;
-            z-index: 2;
+              &.onfocus {
 
-            &.onfocus {
-              
-              left: 17.8vw;
+                left: 17.8vw;
+              }
             }
+
+            .icon-user {
+              left: 20.8vw;
+              bottom: 5.1vh;
+            }
+
+            .icon-password {
+              left: 21vw;
+              bottom: 4vh;
+
+
+            }
+
+
           }
-
-          .icon-user {
-            left: 20.8vw;
-            bottom: 5.1vh;
-          }
-
-          .icon-password {
-            left: 21vw;
-            bottom: 4vh;
-
-
-          }
-
-
         }
+
 
 
 
@@ -117,7 +146,7 @@
 
           &:hover {
             color: $color-primary-red;
-            background: $color-white;            
+            background: $color-white;
             transition: .5s;
           }
 
@@ -134,4 +163,3 @@
     background-image: url(../../images/computerbackground.jpg); //Mudará para a versão mobile. Farei?
   }
 }
-
