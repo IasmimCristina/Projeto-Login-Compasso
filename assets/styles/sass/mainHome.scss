@@ -1,0 +1,14 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "noselect";
+
+//Estilização geral. Tela Home.
+body {
+  font-family: $font-principal;
+  font-size: $font-bigger;
+  font-weight: $font-principal-bold;
+  color: $color-primary-red;
+  
+  
+}

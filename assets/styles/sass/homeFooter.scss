@@ -1,0 +1,45 @@
+@import "variables";
+
+.footer-container {
+  height: 10vh;
+  background: $color-gradient-home-background;
+
+  .timer-refresh {
+    .timer-numbers {
+      font-size: $font-home-big;
+      
+    }
+  }
+
+  .footer-text,
+  .timer-article,
+  .timer-seconds,.timer-numbers {
+    color: $color-white;
+
+  }
+
+  .footer-text,
+  .timer-article,
+  .timer-seconds, .continuarNavegando {
+    font-weight: $font-principal-not-bold;
+  }
+
+  .timer-article,
+  .timer-seconds {
+    font-size: $font-small-home;
+
+  }
+
+  .footer-text, .button{
+    font-size: $font-small;
+  }
+
+  .footer-line {
+    padding-top: 6vh;
+    color: $color-white;
+    font-weight: $font-principal-not-bold;
+    font-size: 5px;
+    background-color: rgb(255, 255, 255);
+    
+  }
+}

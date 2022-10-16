@@ -1,0 +1,65 @@
+@import "variables";
+
+.header-container {
+  display: flex;
+  height: 15vh;
+  // background-color: aqua;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .home-logo {
+    width: 8vw;
+    margin-left: 2vw;
+  }
+
+  .time-and-date-container {
+    // background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .time,
+    .date {
+      color: $color-black;
+
+    }
+    .time {
+
+      height: 12.5vh;
+      padding: 0;
+      font-size: $font-huge;
+      // background-color: rgb(230, 221, 221);
+
+    }
+    .date {
+      font-weight: $font-principal-not-bold;
+      font-size: $font-small-home;
+      margin-top: 0vh;
+      // background-color: black;
+
+    }
+
+  }
+
+  .place-and-weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    margin-top: 3vh;
+    margin-right: 2vw;
+
+    .place, .weather {
+      color: $color-black;
+    }
+    .place {
+      font-size: $font-small-home;
+      font-weight: $font-principal-not-bold;      
+    }
+    .weather {
+      font-size: $font-home-big;
+      margin-top: .5vh;
+    }
+  }
+}
