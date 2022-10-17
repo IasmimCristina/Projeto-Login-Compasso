@@ -1,13 +1,19 @@
-# 🎮 Projeto de Login para Compasso Uol - **SPRINT IV** 🎮
+# 🎮🖥️ Projeto de Login para Compasso Uol - **SPRINT IV** 🖥️🎮
 ![Imagem de login do projeto.](https://user-images.githubusercontent.com/100351576/195411306-a2e7c079-d01f-4329-8ba7-7b2940610b41.jpg)
+***
+# 🖥️Figma do projeto 🎨👩‍💻 
+   > *_Keepalive – Figma_* -> https://www.figma.com/file/D9NUCsGJ1gCvmL0ZUnb7SJ/keepalive?node-id=0%3A1
+
+***
 ## 👩‍💻 Descrição:
 - Telas de entrada ao sistema Compasso, projeto enviado pela Compass Uol que necessita de HTML/CSS/JS.
-- 4 páginas. 📃
-- Tecnologias usadas: Html, Scss/Css e JavaScript.
+- 4 layouts. 📃
+- *2 páginas no projeto*. 📃📃
+- Tecnologias usadas: *Html*, *Scss/Css* e *JavaScript*.
 ***
 ### 🎬 História 🎬
 
--> Eu, como usuário, quero poder logar no website de colaboradores da Compass para que eu consiga acessar com segurança e usufruir das funcionalidades disponíveis.
+> Eu, como usuário, quero poder logar no website de colaboradores da Compass para que eu consiga acessar com segurança e usufruir das funcionalidades disponíveis.
 
 ### Cenário Atual: 😟
 
@@ -17,10 +23,7 @@
 
 - [x] Desejamos um login que possa permitir uma boa usabilidade ao usuário.
 ***
-* Figma do projeto 🎨 
-   * Keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCvmL0ZUnb7SJ/keepalive?node-id=0%3A1
 
-***
 # 🗃️ O que deve ser feito 🗃️
 
 🛠 Workflow:
