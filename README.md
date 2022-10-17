@@ -11,16 +11,17 @@
 
 ### Cenário Atual: 😟
 
--> Atualmente não temos um sistema e login num ambiente digital que promova uma maior integração e centralização de funcionalidade para colaboradores na Compass.⠀⠀⠀
+- [x] Atualmente não temos um sistema e login num ambiente digital que promova uma maior integração e centralização de funcionalidade para colaboradores na Compass.⠀⠀⠀
  
 ### Cenário Desejado: 😊
 
--> Desejamos um login que possa permitir uma boa usabilidade ao usuário.
+- [x] Desejamos um login que possa permitir uma boa usabilidade ao usuário.
 ***
-Figma do projeto: keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCvmL0ZUnb7SJ/keepalive?node-id=0%3A1
+* Figma do projeto 🎨 
+   * Keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCvmL0ZUnb7SJ/keepalive?node-id=0%3A1
 
 ***
-# 🗃️ O que deve ser feito: 
+# 🗃️ O que deve ser feito 🗃️
 
 🛠 Workflow:
 
@@ -97,7 +98,7 @@ Figma do projeto: keepalive – Figma -> https://www.figma.com/file/D9NUCsGJ1gCv
 - $font-principal-bold: 700;*
 - $font-principal-not-bold: 400;
 ***
-![logo-Compasso-Branco-hor](https://user-images.githubusercontent.com/100351576/196284969-f7df7615-1007-4cf6-bce9-8789d85bc645.svg)
+![logo-Compasso-Branco](https://user-images.githubusercontent.com/100351576/196284969-f7df7615-1007-4cf6-bce9-8789d85bc645.svg)
 ***
 
  
