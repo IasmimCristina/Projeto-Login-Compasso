@@ -18,11 +18,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     .time,
     .date {
       color: $color-black;
 
     }
+
     .time {
 
       height: 12.5vh;
@@ -31,10 +33,11 @@
       // background-color: rgb(230, 221, 221);
 
     }
+
     .date {
       font-weight: $font-principal-not-bold;
       font-size: $font-small-home;
-      margin-top: 0vh;
+      margin-top: 1vh;
       // background-color: black;
 
     }
@@ -50,13 +53,16 @@
     margin-top: 3vh;
     margin-right: 2vw;
 
-    .place, .weather {
+    .place,
+    .weather {
       color: $color-black;
     }
+
     .place {
       font-size: $font-small-home;
-      font-weight: $font-principal-not-bold;      
+      font-weight: $font-principal-not-bold;
     }
+
     .weather {
       font-size: $font-home-big;
       margin-top: .5vh;
