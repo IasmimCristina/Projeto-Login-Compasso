@@ -4,9 +4,15 @@
 
 ---
 
-> Status: ✅*finalizado.*✅
+> Status: ✅ *finalizado.* ✅
 
 # 🖥️Figma do projeto 🎨👩‍💻
+
+![Login](https://user-images.githubusercontent.com/100351576/196434853-b3adb271-1197-45d9-896b-5794f5a822d1.jpg)
+![Login Preenchido](https://user-images.githubusercontent.com/100351576/196434753-f3f63b7c-f5c9-4d0f-9493-8e1bf2009ec5.jpg)
+![Login error](https://user-images.githubusercontent.com/100351576/196434774-b3d7a941-67a5-45cb-9917-955c2f6aa949.jpg)
+![Home](https://user-images.githubusercontent.com/100351576/196434784-cfead145-0d76-49ec-9fa6-b23ab020a79c.jpg)
+
 
 - _*Keepalive – Figma*_
   > https://www.figma.com/file/D9NUCsGJ1gCvmL0ZUnb7SJ/keepalive?node-id=0%3A1
@@ -84,15 +90,15 @@
 
 # ✨🌈Variáveis CSS do projeto🌈✨
 
-| *Cor*🌈✨       | ✨*Hexadecimal*✨                                                |
-| --------------- | ---------------------------------------------------------------- |
-| White           | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
-| Black           | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
-| Primary Red     | ![#C12D18](https://via.placeholder.com/10/C12D18?text=+) #C12D18 |
-| Primary Yellow  | ![#E9B425](https://via.placeholder.com/10/E9B425?text=+) #E9B425 |
-| Primary Orange  | ![#E29933](https://via.placeholder.com/10/E29933?text=+) #E29933 |
-| Secondary       | ![#222222](https://via.placeholder.com/10/222222?text=+) #222222 |
-| Background Home | ![#E0E0E0](https://via.placeholder.com/10/E0E0E0?text=+) #E0E0E0 |
+| *Cor*🌈✨       | ✨*Hexadecimal*✨  |
+| --------------- | ----------------- |
+| White           |  #FFFFFF |
+| Black           |  #000000 |
+| Primary Red     | #C12D18 |
+| Primary Yellow  |  #E9B425 |
+| Primary Orange  | #E29933 |
+| Secondary       |  #222222 |
+| Background Home | #E0E0E0 |
 
 ## Sua definição no código:
 
