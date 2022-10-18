@@ -148,7 +148,7 @@
 
 ### 💡Pesos das fontes no projeto💡
 
-- $font-principal-bold: 700;\*
+- $font-principal-bold: 700;
 - $font-principal-not-bold: 400;
 
 ---
