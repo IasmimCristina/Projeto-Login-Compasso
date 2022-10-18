@@ -119,6 +119,7 @@
 ## 🔤🌈 Fonte do projeto 🌈🔤
 
 - $font-principal: 'Poppins', sans-serif;
+---
 
 ### Fontes pequenas e suas variações 🔤
 
