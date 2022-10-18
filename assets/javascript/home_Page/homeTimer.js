@@ -1,7 +1,7 @@
 const timer600 = document.querySelector(".timer-numbers");
 const seconds = document.querySelector(".timer-seconds");
 
-let time = 600;
+let time = 180;
 
 let countdown = setInterval(() => {
   --time;
@@ -13,7 +13,7 @@ let countdown = setInterval(() => {
     seconds.innerHTML = "seconds";
 
   }
-  if (time < 0) { logoutAction(); }
-},1000)
+  if (time == -1) { logoutAction(); }
+}, 1000)
 
 

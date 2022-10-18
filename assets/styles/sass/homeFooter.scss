@@ -53,17 +53,15 @@
     display: flex;
     justify-content: space-evenly;
     width: 80vw;
-    
+
     .footer-text-line {
       display: flex;
       align-items: center;
       width: 35vw;
-      
-      article {
 
+      article {
         margin-left: 5vw;
         margin-right: 1vw;
-
         text-align: end;
 
       }
@@ -75,7 +73,7 @@
       align-items: center;
       justify-content: space-around;
       width: 13vw;
-      
+
       .timer-numbers-and-seconds {
         display: flex;
         flex-direction: column;
@@ -91,24 +89,24 @@
   }
 
 
-  .buttons {  
+  .buttons {
     display: flex;
     width: 15vw;
-    
+
 
     a {
       text-decoration: none;
       line-height: 0.9375rem;
       text-align: center;
       color: $color-primary-red;
-      background-color:$color-white;      
+      background-color: $color-white;
       padding: 0 1vw;
       padding-top: 3.5vh;
 
       &:hover {
         background-color: $color-text-and-background;
-        color: $color-secondary; 
-        transition: .5s ;
+        color: $color-secondary;
+        transition: .5s;
       }
 
 
@@ -116,15 +114,15 @@
 
     button {
       font-weight: $font-principal-bold;
-      color: $color-white;      
+      color: $color-white;
       width: 10vw;
       border: none;
       background-color: transparent;
 
       &:hover {
         background-color: $color-primary-red;
-        color: $color-secondary; 
-        transition: .5s ;
+        color: $color-secondary;
+        transition: .5s;
       }
     }
   }

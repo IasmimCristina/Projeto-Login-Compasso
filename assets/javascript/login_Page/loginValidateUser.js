@@ -14,9 +14,7 @@ const getUserTyped = (email, password) => {
 
 const validateUser = (userTyped) => {
   bankUsers.forEach(user => {
-    if (userTyped.email == user.email && userTyped.password == user.password) {
-      console.log("Funcionou! E-mail correto!");
-      console.log(userTyped);
+    if (userTyped.email == user.email && userTyped.password == user.password) {      
       // Transformar o objeto em string e salvar em localStorage:
       localStorage.setItem('user', JSON.stringify(userTyped));
       openHome();

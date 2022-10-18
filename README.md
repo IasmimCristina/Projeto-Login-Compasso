@@ -4,6 +4,8 @@
 
 ---
 
+> Status: ✅*finalizado.*✅
+
 # 🖥️Figma do projeto 🎨👩‍💻
 
 - _*Keepalive – Figma*_
@@ -15,8 +17,8 @@
 
 - Telas de entrada ao sistema Compasso, projeto enviado pela Compass Uol que necessita de HTML/CSS/JS.
 - 4 layouts. 📃
-- _2 páginas no projeto_. 📃📃
-- Tecnologias usadas: _Html_, _Scss/Css_ e _JavaScript_.
+- _*2 páginas no projeto*_. 📃📃
+- Tecnologias usadas: _*Html*_, _*Scss/Css*_ e _*JavaScript*_.
 
 ---
 
@@ -24,11 +26,11 @@
 
 > Eu, como usuário, quero poder logar no website de colaboradores da Compass para que eu consiga acessar com segurança e usufruir das funcionalidades disponíveis.
 
-### Cenário Atual: 😟
+### Cenário Atual: 😟❌
 
 - [x] Atualmente não temos um sistema e login num ambiente digital que promova uma maior integração e centralização de funcionalidade para colaboradores na Compass.⠀⠀⠀
 
-### Cenário Desejado: 😊
+### Cenário Desejado: 😊✅
 
 - [x] Desejamos um login que possa permitir uma boa usabilidade ao usuário.
 
@@ -82,6 +84,18 @@
 
 # ✨🌈Variáveis CSS do projeto🌈✨
 
+| *Cor*🌈✨       | ✨*Hexadecimal*✨                                                |
+| --------------- | ---------------------------------------------------------------- |
+| White           | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
+| Black           | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
+| Primary Red     | ![#C12D18](https://via.placeholder.com/10/C12D18?text=+) #C12D18 |
+| Primary Yellow  | ![#E9B425](https://via.placeholder.com/10/E9B425?text=+) #E9B425 |
+| Primary Orange  | ![#E29933](https://via.placeholder.com/10/E29933?text=+) #E29933 |
+| Secondary       | ![#222222](https://via.placeholder.com/10/222222?text=+) #222222 |
+| Background Home | ![#E0E0E0](https://via.placeholder.com/10/E0E0E0?text=+) #E0E0E0 |
+
+## Sua definição no código:
+
 - $color-white: #FFFFFF;
 - $color-black: #000000;
 - $color-primary-red: #C12D18;
@@ -101,10 +115,31 @@
 ## 🔤🌈 Fonte do projeto 🌈🔤
 
 - $font-principal: 'Poppins', sans-serif;
-- $font-small: 12px;
-- $font-normal-size: 16px;
-- $font-big: 64px;
-- $font-huge: 144px;
+
+### Fontes pequenas e suas variações. 🔤
+
+- $font-small: 0.75rem;
+- $font-small-home: .875rem;
+
+---
+
+### Fontes médias. 🌈🔤
+
+- $font-normal-size: 1rem;
+- $font-text-translate: 1.5rem;
+- $font-text-home-title: 2.25rem;
+- $font-normal-big: 1.875rem;
+- $font-home-big: 3rem;
+
+---
+
+### Fontes grandes e suas variações. 💡🔤
+
+- $font-big: 3.75rem;
+- $font-bigger: 4rem;
+- $font-huge: 9rem;
+
+---
 
 ### 💡Pesos das fontes no projeto💡
 
@@ -114,5 +149,13 @@
 ---
 
 ![logo-Compasso-Branco](https://user-images.githubusercontent.com/100351576/196284969-f7df7615-1007-4cf6-bce9-8789d85bc645.svg)
+
+---
+
+---
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ias-cristina)
 
 ---

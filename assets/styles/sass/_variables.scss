@@ -12,21 +12,24 @@ $color-gradient-orange: linear-gradient(180deg, #E29933 0%, #C13216 100%);
 $color-gradient-black: linear-gradient(180deg, #222222 0%, #000000 100%);
 $color-gradient-yellow: linear-gradient(180deg, #E9B425 0%, #E29933 100%);
 $color-gradient-gray: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
-$color-gradient-red:  linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+$color-gradient-red: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
 $color-gradient-home-background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
 
-//Fonte do projeto e sua configuração. background: 
-
+//Fonte do projeto e sua configuração.
 $font-principal: 'Poppins', sans-serif;
+
+//Fontes pequenas e suas variações.
 $font-small: 0.75rem;
 $font-small-home: .875rem;
 
+//Fontes médias.
 $font-normal-size: 1rem;
 $font-text-translate: 1.5rem;
 $font-text-home-title: 2.25rem;
 $font-normal-big: 1.875rem;
 $font-home-big: 3rem;
 
+//Fontes grandes e suas variações.
 $font-big: 3.75rem;
 $font-bigger: 4rem;
 $font-huge: 9rem;

@@ -9,12 +9,8 @@ const authenticationLoginGeneral = e => {
     let userTyped = getUserTyped(loginEmail.value, loginPass.value);
     validateUser(userTyped);
     
-    
-
   }
 
 };
 
-
 loginButton.addEventListener("click", authenticationLoginGeneral);
-//errorLoginFunction();

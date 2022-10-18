@@ -4,8 +4,7 @@
   height: 75vh;
   background-image: url(../../images/bola-LogoCompassoBackground.svg);
   background-repeat: no-repeat;
-  background-position:  right 102% bottom 250%;
-
+  background-position: right 102% bottom 250%;
   text-align: end;
   display: flex;
   justify-content: flex-end;
@@ -13,16 +12,17 @@
 
   &-content {
     margin-right: 7vw;
-
   }
 
   .first-title {
     font-size: $font-text-home-title;
   }
-  .home-main-title
-{
-  margin-bottom: 1vh;
-}  .translate {
+
+  .home-main-title {
+    margin-bottom: 1vh;
+  }
+
+  .translate {
     color: $color-secondary;
     font-weight: $font-principal-not-bold;
     font-size: $font-text-translate;

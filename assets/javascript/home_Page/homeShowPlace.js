@@ -1,11 +1,7 @@
 const currentPlace = document.querySelector('.place');
 
-
-
-//Função que pegadará e criaŕa o endereço do usuário e colocará na tela.
-function createLocalization(lat, long) {
-  console.log(lat);
-  console.log(long);
+//Função que pegadará e criará o endereço do usuário e colocará na tela.
+function createLocalization(lat, long) {  
   let params = 'zoom=18&addressdetails=1';
   let url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${long}&${params}`;
 

@@ -8,15 +8,15 @@ const iconPass = document.querySelector(".icon-password");
 const animationLogin = setInterval(function () {
 
   if (loginEmail === document.activeElement || loginEmail.value !== "") {
-iconUser.classList.add("onfocus");
+    iconUser.classList.add("onfocus");
   } else {
-iconUser.classList.remove("onfocus");
+    iconUser.classList.remove("onfocus");
   }
 
   if (loginPass === document.activeElement || loginPass.value !== "") {
     iconPass.classList.add("onfocus");
-      } else {
+  } else {
     iconPass.classList.remove("onfocus");
-      }
+  }
 })
 

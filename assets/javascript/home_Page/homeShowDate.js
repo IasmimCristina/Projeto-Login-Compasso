@@ -9,8 +9,6 @@ const dataExtenso = setInterval(function time() {
   let meses = new Array("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro");
   let semana = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"];
 
-
-
   // Data sendo pêga. 
   let date = new Date();
 
