@@ -1,4 +1,4 @@
-# 🎮🖥️ Projeto de Login Compasso UOL || **SPRINT IV** 🖥️🎮
+# 🎮🖥️ Projeto Login Compasso UOL || **SPRINT IV** 🖥️🎮
 
 ![Imagem de login do projeto.](https://user-images.githubusercontent.com/100351576/195411306-a2e7c079-d01f-4329-8ba7-7b2940610b41.jpg)
 
