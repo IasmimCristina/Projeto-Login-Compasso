@@ -1,7 +1,7 @@
 const timer600 = document.querySelector(".timer-numbers");
 const seconds = document.querySelector(".timer-seconds");
 
-let time = 180;
+let time = 600;
 
 let countdown = setInterval(() => {
   --time;
