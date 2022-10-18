@@ -98,7 +98,7 @@
 | Secondary       |  #222222 |
 | Background Home | #E0E0E0 |
 
-## Sua definição no código:
+## 🌈👩‍💻Suas definições no código 👩‍💻🌈
 
 - $color-white: #FFFFFF;
 - $color-black: #000000;
