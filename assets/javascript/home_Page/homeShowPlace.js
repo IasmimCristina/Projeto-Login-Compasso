@@ -1,7 +1,6 @@
 const currentPlace = document.querySelector('.place');
 
-let currentLati; //Latitude
-let currentLongi; //Longitude
+
 
 //Função que pegadará e criaŕa o endereço do usuário e colocará na tela.
 function createLocalization(lat, long) {

@@ -53,6 +53,11 @@
     margin-top: 3vh;
     margin-right: 2vw;
 
+    .icon-weather {
+      color: $color-black;
+      font-size: 2.2rem;
+     
+    }
     .place,
     .weather {
       color: $color-black;
@@ -61,6 +66,7 @@
     .place {
       font-size: $font-small-home;
       font-weight: $font-principal-not-bold;
+      margin-right: 1vw;
     }
 
     .weather {
