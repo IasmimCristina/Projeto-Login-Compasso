@@ -120,14 +120,14 @@
 
 - $font-principal: 'Poppins', sans-serif;
 
-### Fontes pequenas e suas variações. 🔤
+### Fontes pequenas e suas variações 🔤
 
 - $font-small: 0.75rem;
 - $font-small-home: .875rem;
 
 ---
 
-### Fontes médias. 🌈🔤
+### Fontes médias 🌈🔤
 
 - $font-normal-size: 1rem;
 - $font-text-translate: 1.5rem;
@@ -137,7 +137,7 @@
 
 ---
 
-### Fontes grandes e suas variações. 💡🔤
+### Fontes grandes e suas variações 💡🔤
 
 - $font-big: 3.75rem;
 - $font-bigger: 4rem;
