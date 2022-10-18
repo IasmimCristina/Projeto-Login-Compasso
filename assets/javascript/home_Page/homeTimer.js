@@ -1,14 +1,19 @@
 const timer600 = document.querySelector(".timer-numbers");
-console.log(timer600);
+const seconds = document.querySelector(".timer-seconds");
 
-// setTimeout(function() {
-//   window.location.reload(1);
-// }, 180000); // 3 minutos
-// let counter = 600;
-// setTimeout(function() {
-//   counter -= 1
-//   console.log(counter);
-  
+let time = 600;
 
-// },600.000)
+let countdown = setInterval(() => {
+  --time;
+  timer600.textContent = time;
+
+  if (time == 1) {
+    seconds.innerHTML = "second";
+  } else {
+    seconds.innerHTML = "seconds";
+
+  }
+  if (time < 0) { logoutAction(); }
+},1000)
+
 

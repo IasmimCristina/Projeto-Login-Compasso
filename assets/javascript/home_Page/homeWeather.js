@@ -10,25 +10,50 @@ navigator.geolocation.getCurrentPosition((position) => {
 });
 
 function addWeatherToPage(tempString) {
-currentWeather.textContent = tempString;
+  currentWeather.textContent = tempString;
 }
 
 function requestWeather(lati, longi) {
-  // setInterval(() => {
-    let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lati}&lon=${longi}&appid=8db116479bcec246f67ef8b6af597c8b`;
-    console.log(url);
-    fetch(url).then((response) => response.json()).then(result => weatherDetails(result));
-  // },100000) // A cada 5 horas.
+  let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lati}&lon=${longi}&appid=8db116479bcec246f67ef8b6af597c8b`;
+  fetch(url).then((response) => response.json()).then(result => weatherDetails(result));
 
 
 }
 
+const currentIconWeather = document.querySelector('.icon-weather');
+function addIconToPage(infoWeather) {  
+  if (infoWeather == 800) {
+    currentIconWeather.classList.add('fa-cloud-sun')  
 
-function weatherDetails(result) {
-  console.log(result.main.temp);
+  } else if (infoWeather >= 200 && infoWeather <= 232) {
+    currentIconWeather.classList.add('fa-cloud-showers-heavy')    
+
+  } else if (infoWeather >= 600 && infoWeather <= 622) {
+    currentIconWeather.classList.add('fa-snowflake')   
+
+  } else if (infoWeather >= 701 && infoWeather <= 781) {
+    currentIconWeather.classList.add('fa-smog')   
+
+  } else if (infoWeather >= 801 && infoWeather <= 804) {
+    currentIconWeather.classList.add('fa-cloud')   
+
+  } else if ((infoWeather >= 500 && infoWeather <= 531) || (infoWeather >= 300 && infoWeather <= 321)) {
+    currentIconWeather.classList.add('fa-cloud-rain')    
+
+  }
+}
+
+
+function weatherDetails(result) { 
+
+  //Mudança dos ícones de clima.
+  let infoWeather = result.weather[0].id;
+  console.log(infoWeather);
+  addIconToPage(infoWeather);
+  //-----------------------------
+
   let currentTemp = result.main.temp;
   let tempString = currentTemp.toString();
-  let exemplo = '41597'
   tempString = tempString.substring(0, 2);
   tempString += '°';
   console.log(tempString);

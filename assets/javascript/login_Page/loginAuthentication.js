@@ -1,6 +1,4 @@
 
-
-
 const authenticationLoginGeneral = e => {
   let isValid = false;
   e.preventDefault();
@@ -10,6 +8,8 @@ const authenticationLoginGeneral = e => {
   if (isValid) {
     let userTyped = getUserTyped(loginEmail.value, loginPass.value);
     validateUser(userTyped);
+    
+    
 
   }
 
